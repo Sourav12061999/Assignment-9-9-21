@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 7</title>
+    <style>
+        .flex{
+            width: 40vw;
+            display: flex;
+           
+        }
+        .box{
+          flex-basis: 100px;
+          height: 100px;
+          background-color: teal;
+          margin: 15px;
+        }
+        .big{
+           flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div class="box"></div>
+        <div class="box big"></div>
+        <div class="box"></div>
+    </div>
+    <div class="flex">
+        <div class="box big"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <div class="flex">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box big"></div>
+    </div>
+</body>
+</html>
